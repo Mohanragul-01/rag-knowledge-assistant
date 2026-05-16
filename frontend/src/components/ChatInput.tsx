@@ -2,8 +2,8 @@
 // Purpose: Question input bar — submits on Enter or button click, disabled while loading
 // Step: Step-7 — React UI
 
-import { useState, KeyboardEvent } from "react";
-
+import { useState } from "react";
+import type {KeyboardEvent} from "react";
 
 interface Props {
   onSend: (question: string) => void;

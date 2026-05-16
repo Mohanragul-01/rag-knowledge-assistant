@@ -2,7 +2,8 @@
 // Purpose: PDF drag-and-drop uploader — calls /upload and reports status to parent
 // Step: Step-7 — React UI
 
-import { useRef, useState, DragEvent, ChangeEvent } from "react";
+import { useRef, useState } from "react";
+import type { DragEvent, ChangeEvent } from "react";
 import { uploadPDF } from "../api/client";
 
 
