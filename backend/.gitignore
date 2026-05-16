@@ -1,0 +1,40 @@
+# File: .gitignore (backend)
+# Purpose: Prevent secrets, model cache, and generated data from being committed
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables — never commit secrets
+.env
+
+# Generated data and model cache
+uploads/
+chroma_store/
+.cache/
+~/.cache/huggingface/
+*.log
+pip-log.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
